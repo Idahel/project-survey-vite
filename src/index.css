@@ -11,3 +11,136 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body {
+  font-family: 'Tanker', sans-serif;
+  background-color: #c8f1c5;
+  color: #003065;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; 
+}
+
+header {
+  font-size: 50px;
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.form-container {
+  width: 400px;
+  margin: 20px;
+}
+
+.name-question {
+  font-size: 50px;
+}
+
+.input-field {
+  background-color: white;
+  border: 3px solid;
+  border-color: #003065;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 20px;
+  font-family:'Tanker', sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #003065;
+}
+
+.animal-question {
+  font-size: 50px;
+}
+
+.animal-dropdown {
+  background-color: white;
+  border: 3px solid;
+  border-color: #003065;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 20px;
+  font-family:'Tanker', sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #003065;
+}
+
+.meal-question {
+  font-size: 50px;
+}
+
+.meal-dropdown {
+  background-color: white;
+  border: 3px solid;
+  border-color: #003065;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 20px;
+  font-family:'Tanker', sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #003065;
+}
+
+.living-question {
+  font-size: 50px;
+}
+
+
+.back-button {
+  font-family:'Tanker', sans-serif;
+  font-size: 30px;
+  background-color: #003065;
+  color: #c8f1c5;
+  border-radius: 3px;
+  border: none;
+  margin-right: 20px;
+  margin-top: 30px;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
+.next-button {
+  font-family:'Tanker', sans-serif;
+  font-size: 30px;
+  background-color: #003065;
+  color: #c8f1c5;
+  border-radius: 3px;
+  border: none;
+  margin-right: 20px;
+  margin-top: 30px;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
+.submit-button {
+  font-family:'Tanker', sans-serif;
+  font-size: 30px;
+  background-color: #003065;
+  color: #c8f1c5;
+  border-radius: 3px;
+  border: none;
+  margin-right: 20px;
+  margin-top: 30px;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+.try-again-button {
+  font-family:'Tanker', sans-serif;
+  font-size: 30px;
+  background-color: #003065;
+  color: #c8f1c5;
+  border-radius: 3px;
+  border: none;
+  margin-right: 20px;
+  margin-top: 30px;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
+.submitted-data {
+  font-size: 30px;
+}
