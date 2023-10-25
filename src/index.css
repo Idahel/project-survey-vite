@@ -20,22 +20,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px; 
-}
-
-header {
-  font-size: 50px;
-  text-align: center; 
-  margin-top: 20px; 
-}
-
-.form-container {
-  width: 400px;
   margin: 20px;
 }
 
+header {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-container {
+  width: 100%; /* Make it full-width on small screens */
+  max-width: 400px; /* Limit width on larger screens */
+}
+
 .name-question {
-  font-size: 50px;
+  font-size: 30px;
+  text-align: left;
 }
 
 .input-field {
@@ -45,14 +46,17 @@ header {
   border-radius: 3px;
   padding: 5px;
   margin-top: 20px;
-  font-family:'Tanker', sans-serif;
-  font-size: 30px;
+  font-family: 'Tanker', sans-serif;
+  font-size: 20px; /* Slightly reduce font size for better mobile input */
   letter-spacing: 1px;
   color: #003065;
+  width: 100%; /* Make inputs full-width */
 }
 
+
 .animal-question {
-  font-size: 50px;
+  font-size: 30px;
+  text-align: left;
 }
 
 .animal-dropdown {
@@ -62,14 +66,17 @@ header {
   border-radius: 3px;
   padding: 5px;
   margin-top: 20px;
-  font-family:'Tanker', sans-serif;
-  font-size: 30px;
+  font-family: 'Tanker', sans-serif;
+  font-size: 20px; /* Slightly reduce font size for better mobile input */
   letter-spacing: 1px;
   color: #003065;
+  width: 100%; /* Make inputs full-width */
 }
 
+
 .meal-question {
-  font-size: 50px;
+  font-size: 30px;
+  text-align: left;
 }
 
 .meal-dropdown {
@@ -79,68 +86,70 @@ header {
   border-radius: 3px;
   padding: 5px;
   margin-top: 20px;
-  font-family:'Tanker', sans-serif;
-  font-size: 30px;
+  font-family: 'Tanker', sans-serif;
+  font-size: 20px; /* Slightly reduce font size for better mobile input */
   letter-spacing: 1px;
   color: #003065;
+  width: 100%; /* Make inputs full-width */
 }
 
 .living-question {
-  font-size: 50px;
+  font-size: 30px;
+  text-align: left;
 }
 
 
 .back-button {
-  font-family:'Tanker', sans-serif;
-  font-size: 30px;
+  font-family: 'Tanker', sans-serif;
+  font-size: 20px; /* Reduce button font size for mobile */
   background-color: #003065;
   color: #c8f1c5;
   border-radius: 3px;
   border: none;
   margin-right: 20px;
   margin-top: 30px;
-  padding: 5px;
+  padding: 5px 10px; /* Add more padding horizontally */
   letter-spacing: 1px;
 }
 
 .next-button {
-  font-family:'Tanker', sans-serif;
-  font-size: 30px;
+  font-family: 'Tanker', sans-serif;
+  font-size: 20px; /* Reduce button font size for mobile */
   background-color: #003065;
   color: #c8f1c5;
   border-radius: 3px;
   border: none;
   margin-right: 20px;
   margin-top: 30px;
-  padding: 5px;
+  padding: 5px 10px; /* Add more padding horizontally */
   letter-spacing: 1px;
 }
 
 .submit-button {
-  font-family:'Tanker', sans-serif;
-  font-size: 30px;
+  font-family: 'Tanker', sans-serif;
+  font-size: 20px; /* Reduce button font size for mobile */
   background-color: #003065;
   color: #c8f1c5;
   border-radius: 3px;
   border: none;
   margin-right: 20px;
   margin-top: 30px;
-  padding: 5px;
+  padding: 5px 10px; /* Add more padding horizontally */
   letter-spacing: 1px;
 }
 .try-again-button {
-  font-family:'Tanker', sans-serif;
-  font-size: 30px;
+  font-family: 'Tanker', sans-serif;
+  font-size: 20px; /* Reduce button font size for mobile */
   background-color: #003065;
   color: #c8f1c5;
   border-radius: 3px;
   border: none;
   margin-right: 20px;
   margin-top: 30px;
-  padding: 5px;
+  padding: 5px 10px; /* Add more padding horizontally */
   letter-spacing: 1px;
 }
 
 .submitted-data {
-  font-size: 30px;
+  font-size: 20px;
 }
