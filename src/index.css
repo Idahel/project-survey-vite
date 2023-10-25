@@ -30,8 +30,8 @@ header {
 }
 
 .form-container {
-  width: 100%; /* Make it full-width on small screens */
-  max-width: 400px; /* Limit width on larger screens */
+  width: 100%; 
+  max-width: 400px;
 }
 
 .name-question {
@@ -47,10 +47,10 @@ header {
   padding: 5px;
   margin-top: 20px;
   font-family: 'Tanker', sans-serif;
-  font-size: 20px; /* Slightly reduce font size for better mobile input */
+  font-size: 20px;
   letter-spacing: 1px;
   color: #003065;
-  width: 100%; /* Make inputs full-width */
+  width: 100%;
 }
 
 
@@ -67,10 +67,10 @@ header {
   padding: 5px;
   margin-top: 20px;
   font-family: 'Tanker', sans-serif;
-  font-size: 20px; /* Slightly reduce font size for better mobile input */
+  font-size: 20px;
   letter-spacing: 1px;
   color: #003065;
-  width: 100%; /* Make inputs full-width */
+  width: 100%;
 }
 
 
@@ -87,10 +87,10 @@ header {
   padding: 5px;
   margin-top: 20px;
   font-family: 'Tanker', sans-serif;
-  font-size: 20px; /* Slightly reduce font size for better mobile input */
+  font-size: 20px; 
   letter-spacing: 1px;
   color: #003065;
-  width: 100%; /* Make inputs full-width */
+  width: 100%; 
 }
 
 .living-question {
@@ -101,52 +101,52 @@ header {
 
 .back-button {
   font-family: 'Tanker', sans-serif;
-  font-size: 20px; /* Reduce button font size for mobile */
+  font-size: 20px;
   background-color: #003065;
   color: #c8f1c5;
   border-radius: 3px;
   border: none;
   margin-right: 20px;
   margin-top: 30px;
-  padding: 5px 10px; /* Add more padding horizontally */
+  padding: 5px 10px;
   letter-spacing: 1px;
 }
 
 .next-button {
   font-family: 'Tanker', sans-serif;
-  font-size: 20px; /* Reduce button font size for mobile */
+  font-size: 20px; 
   background-color: #003065;
   color: #c8f1c5;
   border-radius: 3px;
   border: none;
   margin-right: 20px;
   margin-top: 30px;
-  padding: 5px 10px; /* Add more padding horizontally */
+  padding: 5px 10px; 
   letter-spacing: 1px;
 }
 
 .submit-button {
   font-family: 'Tanker', sans-serif;
-  font-size: 20px; /* Reduce button font size for mobile */
+  font-size: 20px; 
   background-color: #003065;
   color: #c8f1c5;
   border-radius: 3px;
   border: none;
   margin-right: 20px;
   margin-top: 30px;
-  padding: 5px 10px; /* Add more padding horizontally */
+  padding: 5px 10px; 
   letter-spacing: 1px;
 }
 .try-again-button {
   font-family: 'Tanker', sans-serif;
-  font-size: 20px; /* Reduce button font size for mobile */
+  font-size: 20px; 
   background-color: #003065;
   color: #c8f1c5;
   border-radius: 3px;
   border: none;
   margin-right: 20px;
   margin-top: 30px;
-  padding: 5px 10px; /* Add more padding horizontally */
+  padding: 5px 10px; 
   letter-spacing: 1px;
 }
 
